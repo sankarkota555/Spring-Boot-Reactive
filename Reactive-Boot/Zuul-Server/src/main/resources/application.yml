@@ -1,0 +1,10 @@
+
+spring:  application:    name: Zuul-Server
+server:  port: 8082
+  
+zuul:  retryable: false
+  routes:    Auth-Service:
+        path: /auth/**
+    User-Management-Service:
+        path: /um/**
+      
