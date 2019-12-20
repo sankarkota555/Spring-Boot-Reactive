@@ -7,4 +7,4 @@ Below are the components in root project
 * Eureka Server
 * Auth Service
 * Common Service
-* User-Management-Service
+* User Management Service
